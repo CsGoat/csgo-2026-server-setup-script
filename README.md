@@ -75,9 +75,6 @@ which steamcmd
 |---|---|
 | Server crashes with "GCC_7.0.0 not found" | The script handles this, but if running manually: `mv bin/libgcc_s.so.1 bin/libgcc_s.so.1.bak` |
 | Players instantly disconnect | Verify NoLobbyReservation is loaded: type `sm plugins list` in the server console |
-| `[META] Loaded 0 plugins` | Wrong MetaMod/SourceMod version. Use the 1.11 branch (Source 1), not 2.0 (Source 2) |
-| "wrong ELF class: ELFCLASS64" in logs | Normal and harmless. The 32-bit server ignores the 64-bit binary. |
-| Player can't reconnect after a failed attempt | Known CS:GO client bug. Fully restart CS:GO and try again. |
 | RCON not working remotely | Open TCP port 27015 in your firewall (not just UDP) |
 
 ## Credits
