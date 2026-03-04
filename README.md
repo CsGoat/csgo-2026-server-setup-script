@@ -1,18 +1,22 @@
 # CS:GO Standalone Dedicated Server Setup Script
 
+> **Prefer step-by-step instructions?** See the [Manual Setup Guide](ManualSetup.md) to do it manually without the script.
+
 An automated setup script for hosting a dedicated server on the new standalone CS:GO release (App ID 4465480) on Ubuntu Linux.
 
-Valve re-released CS:GO as a separate, unlisted app on Steam on March 3, 2026. There are no official servers, no working server browser, and no updates — community servers are the only way to play online. This script handles the full installation and configuration so players can connect.
+Valve re-released CS:GO as a separate, unlisted app on Steam on March 3, 2026. Because there are no official servers, community servers are the only way to play online. This script handles the full installation and configuration so players can connect.
 
 ## What It Does
 
 - Installs CS:GO dedicated server files via SteamCMD (app 740)
 - Fixes the bundled `libgcc_s.so.1` conflict that prevents the server from starting on modern Ubuntu
 - Patches `steam_appid.txt` and `csgo/steam.inf` to the new app ID (4465480)
-- Installs MetaMod:Source 1.11 and SourceMod 1.11 (correct Source 1 builds)
+- Installs MetaMod:Source 1.11 and SourceMod 1.11
 - Downloads, compiles, and installs the [NoLobbyReservation](https://github.com/eldoradoel/NoLobbyReservation) plugin (required for players to connect)
 - Creates a basic `server.cfg`
 - Generates a `start.sh` launch script
+
+> **Note on versions:** This script installs MetaMod:Source 1.11 and SourceMod 1.11. These are the specific versions I got working, newer or older builds may also work, but these are confirmed.
 
 ## Requirements
 
@@ -68,14 +72,6 @@ To find where your SteamCMD is installed:
 ```bash
 which steamcmd
 ```
-
-## Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| Server crashes with "GCC_7.0.0 not found" | The script handles this, but if running manually: `mv bin/libgcc_s.so.1 bin/libgcc_s.so.1.bak` |
-| Players instantly disconnect | Verify NoLobbyReservation is loaded: type `sm plugins list` in the server console |
-| RCON not working remotely | Open TCP port 27015 in your firewall (not just UDP) |
 
 ## Credits
 
