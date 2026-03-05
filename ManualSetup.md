@@ -10,9 +10,9 @@ This guide walks you through setting up a fully working dedicated server on Ubun
 
 - An Ubuntu server (20.04 or later) with root or sudo access
 - At least 30 GB of free disk space
-- Ports **27015 UDP and TCP**, as well as ports **27020, 27005, and 26900 UDP** open in your firewall
+- [Ports **27015 UDP and TCP**, as well as ports **27020, 27005, and 26900 UDP** open in your firewall](https://developer.valvesoftware.com/wiki/Source_Dedicated_Server#Connectivity)
 - A Steam account that owns CS:GO / CS2
-- SteamCMD installed
+- [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) installed
 
 ### Install SteamCMD if you haven't already
 
