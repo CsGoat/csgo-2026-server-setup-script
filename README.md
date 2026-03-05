@@ -22,7 +22,7 @@ Valve re-released CS:GO as a separate, unlisted app on Steam on March 3, 2026. B
 
 - Ubuntu 20.04 or later
 - ~30 GB free disk space
-- [Ports 27015 UDP and TCP open, as well as 27020, 27005, and 26900 UDP](https://developer.valvesoftware.com/wiki/Source_Dedicated_Server)
+- [Ports 27015 UDP and TCP open, as well as 27020, 27005, and 26900 UDP](https://developer.valvesoftware.com/wiki/Source_Dedicated_Server#Connectivity)
 - SteamCMD installed
 - A Steam account that owns CS:GO/CS2 (for [GSLT generation](https://steamcommunity.com/dev/managegameservers))
 
