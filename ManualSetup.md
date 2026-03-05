@@ -1,6 +1,6 @@
 # How to Host a Dedicated Server on the New Standalone CS:GO (App 4465480)
 
-Valve quietly re-released Counter-Strike: Global Offensive as a standalone app on Steam (App ID 4465480) on March 3, 2026. This is the frozen 2023 build, no official matchmaking, no server browser, no updates. The only way to play online is through community servers.
+Valve quietly re-released Counter-Strike: Global Offensive as a standalone app on Steam ([App ID 4465480](https://store.steampowered.com/app/4465480/CounterStrikeGlobal_Offensive/)) on March 3, 2026. 
 
 This guide walks you through setting up a fully working dedicated server on Ubuntu Linux from scratch, including the fixes needed to get players connected.
 
