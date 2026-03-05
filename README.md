@@ -72,6 +72,8 @@ To find where your SteamCMD is installed:
 ```bash
 which steamcmd
 ```
+## Disclaimer
+This script was created and tailored specifically for my own server, I cannot guarantee it will work out of the box for yours. Nevertheless, this repo should have all the info you need to get a server running for the newly re-released CS:GO.
 
 ## Credits
 
