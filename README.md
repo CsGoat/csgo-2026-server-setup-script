@@ -22,9 +22,9 @@ Valve re-released CS:GO as a separate, unlisted app on Steam on March 3, 2026. B
 
 - Ubuntu 20.04 or later
 - ~30 GB free disk space
-- Ports 27015 UDP and TCP open
+- [Ports 27015 UDP and TCP open](https://developer.valvesoftware.com/wiki/Source_Dedicated_Server)
 - SteamCMD installed
-- A Steam account that owns CS:GO/CS2 (for GSLT generation)
+- A Steam account that owns CS:GO/CS2 (for [GSLT generation](https://steamcommunity.com/dev/managegameservers))
 
 ### Install SteamCMD
 
@@ -53,7 +53,7 @@ screen -S csgo
 ./start.sh
 ```
 
-Players connect via the CS:GO developer console: `connect YOUR_SERVER_IP:27015`
+Players connect via the CS:GO developer console: `connect YOUR_SERVER_IP:27015` or via the Steam Game Servers browser.
 
 ## Configuring for Your Server
 
