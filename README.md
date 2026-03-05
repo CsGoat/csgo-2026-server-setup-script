@@ -11,7 +11,7 @@ Valve re-released CS:GO as a separate, unlisted app on Steam on March 3, 2026. B
 - Installs CS:GO dedicated server files via SteamCMD (app 740)
 - Fixes the bundled `libgcc_s.so.1` conflict that prevents the server from starting on modern Ubuntu
 - Patches `steam_appid.txt` and `csgo/steam.inf` to the new app ID (4465480)
-- Installs MetaMod:Source 1.11 and SourceMod 1.11
+- Installs MetaMod:Source 1.11 and SourceMod 1.11 (These are not the latest version, but they're what I got working. You can edit the script to change these.)
 - Downloads, compiles, and installs the [NoLobbyReservation](https://github.com/eldoradoel/NoLobbyReservation) plugin (required for players to connect)
 - Creates a basic `server.cfg`
 - Generates a `start.sh` launch script
